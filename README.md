@@ -25,7 +25,7 @@ A modern Next.js application for managing commodities with role-based access con
 - **Charts**: Recharts
 
 ## Project Structure
-
+```txt
 /app
   /login/page.tsx          # Login page
   /dashboard/page.tsx      # Dashboard (Manager only)
@@ -49,6 +49,7 @@ A modern Next.js application for managing commodities with role-based access con
   auth-store.ts            # Zustand auth store
   products.ts              # Mock product data
   utils.ts                 # Utility functions
+```
 
 ## Installation
 
