@@ -159,11 +159,12 @@ export function ProductForm({ productId }: ProductFormProps) {
           {error && <p className="text-destructive text-sm">{error}</p>}
 
           <div className="flex gap-3">
-            <Button type="submit" disabled={loading}>
+            <Button className="cursor-pointer" type="submit" disabled={loading}>
               {loading ? 'Saving...' : 'Save Product'}
             </Button>
             <Button
               type="button"
+              className="cursor-pointer"
               variant="outline"
               onClick={() => router.push('/products')}
             >
