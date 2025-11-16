@@ -55,20 +55,15 @@ A modern Next.js application for managing commodities with role-based access con
 ## Installation
 
 1. **Extract the project**
-   \`\`\`bash
-   unzip commodity-project.zip
-   cd commodity
-   \`\`\`
+   ```bash
+    unzip commodity-project.zip
+    cd commodity
 
 2. **Install dependencies**
-   \`\`\`bash
    npm install
-   \`\`\`
 
 3. **Run development server**
-   \`\`\`bash
    npm run dev
-   \`\`\`
 
 4. **Open browser**
    - Navigate to `http://localhost:3000`
