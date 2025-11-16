@@ -141,6 +141,3 @@ Click the moon/sun icon in the navbar to toggle between light and dark modes. Yo
 - Authentication is simulated based on email input (contains "manager" → manager role)
 - No external API calls or database required
 
-## License
-
-MIT
