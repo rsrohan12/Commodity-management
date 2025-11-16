@@ -124,17 +124,15 @@ Click the moon/sun icon in the navbar to toggle between light and dark modes. Yo
 
 ## Building for Production
 
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
+  ```bash
+  npm run build
+  npm start
 
 ## Development
 
-Watch mode for changes:
-\`\`\`bash
-npm run dev
-\`\`\`
+  Watch mode for changes:
+  ```bash
+  npm run dev
 
 ## Notes
 
