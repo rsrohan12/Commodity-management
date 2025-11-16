@@ -26,7 +26,6 @@ A modern Next.js application for managing commodities with role-based access con
 
 ## Project Structure
 
-\`\`\`
 /app
   /login/page.tsx          # Login page
   /dashboard/page.tsx      # Dashboard (Manager only)
@@ -50,7 +49,6 @@ A modern Next.js application for managing commodities with role-based access con
   auth-store.ts            # Zustand auth store
   products.ts              # Mock product data
   utils.ts                 # Utility functions
-\`\`\`
 
 ## Installation
 
@@ -124,15 +122,17 @@ Click the moon/sun icon in the navbar to toggle between light and dark modes. Yo
 
 ## Building for Production
 
-  ```bash
-  npm run build
-  npm start
+```bash
+npm run build
+npm start
+```
 
 ## Development
 
-  Watch mode for changes:
-  ```bash
-  npm run dev
+Watch mode for changes:
+```bash
+npm run dev
+```
 
 ## Notes
 
